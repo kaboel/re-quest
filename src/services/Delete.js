@@ -1,4 +1,4 @@
-import { domainPath } from "./Config";
+import { domainPath } from "./config";
 
 const DeleteAPI = (path, data) => {
   const promise = new Promise((resolve, reject) => {

@@ -1,4 +1,4 @@
-import { domainPath } from "./Config";
+import { domainPath } from "./config";
 
 const getAPI = (path) => {
   const promise = new Promise((resolve, reject) => {
